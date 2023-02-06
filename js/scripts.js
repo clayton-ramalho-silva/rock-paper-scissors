@@ -113,14 +113,16 @@ function game(){
         }        
     }
 
-    // console.log(vitoria);
-    // console.log(derrota);
+    console.log(vitoria);
+    console.log(derrota);
    
 
     if(vitoria > derrota){
         console.log(`Você VENCEU: ${vitoria} x ${derrota}`);
     }else if (vitoria < derrota) {
         console.log(`Você PERDEU: ${vitoria} x ${derrota}`);
+    }else{
+        console.log(`Empate: ${vitoria} x ${derrota}`);
     }
 
 }
